@@ -1,0 +1,29 @@
+#
+#Created by: Wendi Yu
+#Created on: April 2018
+#
+# Reminder to work or school
+
+day = input(" What day is it? ")
+
+age = int(input(" Enter your age: "))
+
+
+
+if (day == "Sunday" or day == "Saturday") :
+  
+	print(" Time to rest!")
+  
+
+elif (age > 18 ):
+  
+	print (" Time to work!")
+  
+
+else :
+  
+	print (" Time to school!")
+  
+
+
+input()
